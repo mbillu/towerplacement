@@ -40,7 +40,7 @@
 		{
 			for(int j=1;j<=n;j++)
 			{
-				System.out.print(b[i][j]+" ");
+				System.out.print(b[i][j]+" ");		//print eucledian distance matrix
 			}
 			System.out.println();
 		}
@@ -105,8 +105,9 @@
 			}
 		}
 		
+		System.out.println();
 		for(int i=1;i<=k;i++)
 		{
-			System.out.println(tower[i]+" ");
+			System.out.println("Tower "+i+" is at "+tower[i]);
 		}
 	}
